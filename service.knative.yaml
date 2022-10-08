@@ -1,0 +1,62 @@
+apiVersion: serving.knative.dev/v1
+kind: Revision
+metadata:
+  name: landingpage-tedi-00001-bip
+  namespace: '1000981199370'
+  selfLink: /apis/serving.knative.dev/v1/namespaces/1000981199370/revisions/landingpage-tedi-00001-bip
+  uid: c74760a1-b7b2-45f0-b49b-15c6313c19fd
+  resourceVersion: AAXnsZ5XUFY
+  generation: 1
+  creationTimestamp: '2022-09-02T13:20:01.904901Z'
+  labels:
+    serving.knative.dev/route: landingpage-tedi
+    serving.knative.dev/configuration: landingpage-tedi
+    serving.knative.dev/configurationGeneration: '1'
+    serving.knative.dev/service: landingpage-tedi
+    serving.knative.dev/serviceUid: 448c547b-c00e-4770-9805-73e4835061ba
+    cloud.googleapis.com/location: asia-southeast1
+  annotations:
+    run.googleapis.com/client-name: cloud-console
+    serving.knative.dev/creator: c2297f2531@bangkit.academy
+    autoscaling.knative.dev/maxScale: '3'
+    run.googleapis.com/cpu-throttling: 'true'
+  ownerReferences:
+  - kind: Configuration
+    name: landingpage-tedi
+    uid: 0eeafaa7-6e28-4781-b076-dc3fea7a9ade
+    apiVersion: serving.knative.dev/v1
+    controller: true
+    blockOwnerDeletion: true
+spec:
+  containerConcurrency: 80
+  timeoutSeconds: 300
+  serviceAccountName: 1000981199370-compute@developer.gserviceaccount.com
+  containers:
+  - name: landingpage-tedi-1
+    image: gcr.io/tedi-backend-web/landingpage-tedi@sha256:2296bb4b07f6ccfdee03ea2f4a216c12b09066ec370ddb42c4ebda25a2269bc2
+    ports:
+    - name: http1
+      containerPort: 8080
+    resources:
+      limits:
+        cpu: 1000m
+        memory: 512Mi
+status:
+  observedGeneration: 1
+  conditions:
+  - type: Ready
+    status: 'True'
+    lastTransitionTime: '2022-09-02T13:22:15.198459Z'
+  - type: Active
+    status: 'True'
+    lastTransitionTime: '2022-09-02T13:22:15.198459Z'
+    severity: Info
+  - type: ContainerHealthy
+    status: 'True'
+    lastTransitionTime: '2022-09-02T13:22:15.198459Z'
+  - type: ResourcesAvailable
+    status: 'True'
+    lastTransitionTime: '2022-09-02T13:22:14.210595Z'
+  logUrl: https://console.cloud.google.com/logs/viewer?project=tedi-backend-web&resource=cloud_run_revision/service_name/landingpage-tedi/revision_name/landingpage-tedi-00001-bip&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22landingpage-tedi%22%0Aresource.labels.revision_name%3D%22landingpage-tedi-00001-bip%22
+  imageDigest: gcr.io/tedi-backend-web/landingpage-tedi@sha256:2296bb4b07f6ccfdee03ea2f4a216c12b09066ec370ddb42c4ebda25a2269bc2
+  
