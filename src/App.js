@@ -7,6 +7,7 @@ import FeaturePage from './pages/FeaturePage';
 import BlogPage from './pages/BlogPage';
 import ErrorPage from './pages/ErrorPage';
 
+
 function App() {
   return (
     <div className="font-plus-jakarta">

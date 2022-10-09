@@ -8,25 +8,38 @@ function HomePage() {
     <div id="home">
       {/* section jumbotron */}
       {/* <div id="jumbotron" className="bg-gradient-to-b from-blue1 to-blue2 relative min-h-[700px] h-screen flex items-center"> */}
-      <div id="jumbotron" className="bg-gradient-to-tl from-space1 to-space2 relative min-h-[700px] flex items-center pb-20 pt-10">
+      <div id="jumbotron" className="bg-space1 relative min-h-[700px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 ">
-          <img src="./images/shape1.svg" alt="shape" className="w-screen shape" />
+          {/* <img src="./images/shape1.svg" alt="shape" className="w-screen shape" /> */}
         </div>
-        <div className="absolute bottom-0 left-0 right-0 bg-white w-full h-px"></div>
+        {/* <div className="absolute bottom-0 left-0 right-0 bg-white w-full h-px"></div> */}
         <img src='./images/shape-light.svg' alt='light' className='hidden lg:block lg:absolute mix-blend-screen right-0 bottom-0'/>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center container mx-auto px-4 lg:px-10 xl:px-14 2xl:20">
           {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
-          <img src="./images/mobile-app.png" alt="mobile app" className="lg:absolute lg:right-40 max-w-sm mt-20 z-10 px-10 "/>
+          <img src="./images/Profile_remove_bg.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-5 max-w-sm mt-20"/>
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
-            <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2">Aplikasi aksesibilitas<br/>all-in-one untuk<br/>Indonesia!</h1>
-            <h2 className="text-2xl mb-6">TeDi (Teman Disabilitas) bertujuan untuk menciptakan kebermanfaatan teknologi yang mempermudah hidup para difabel.</h2>
-            <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a>
+            <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
+            <h2 className="font-regular text-1xl mb-6"> Hi, I am <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
+            {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a> */}
+            <div className="text-white basis-3 lg:basis-2/6 mt-50">
+            <ul className="flex flex-row justify-self-start content-between">
+              <li className="flex">
+              <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/ic-loc.svg" alt="icon" className="w-10 mr-3 bg-spa"/></a>
+              </li>
+              <li className="ml-10 flex">
+              <a href="https://instagram.com/tedi.temandisabilitas"><img src="./images/ic-ig.svg" alt="icon" className="w-10 mr-3"/></a>
+              </li>
+              <li className="ml-10 flex">
+              <a href="mailto:info@temandisabilitas.com"><img src="./images/ic-mail.svg" alt="icon" className="w-10 mr-3"/></a>
+              </li>
+            </ul>
+          </div>
           </div>
         </div>
       </div>
 
       {/* section problem */}
-      <div id="problem" className="py-20 flex flex-col min-h-[700px] lg:h-screen lg:items-center lg:justify-center relative">
+      <div id="problem" className="text-white bg-space1 py-20 flex flex-col min-h-[700px] lg:h-screen lg:items-center lg:justify-center relative">
         
         <div className='hidden md:block'>
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 -z-20' />
@@ -48,7 +61,7 @@ function HomePage() {
       </div>
 
       {/* section feature */}
-      <div id="feature" className="py-20">
+      <div id="feature" className="bg-space1 py-20">
         <div className="grid grid-cols-1 items-center lg:grid-cols-2 mx-auto px-10 md:px-32 xl:px-56">
           <div className="lg:pr-20 relative">
             <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute -top-16 left-0 md:left-10 lg:-top-10 lg:-left-16 -z-20' />
@@ -96,7 +109,7 @@ function HomePage() {
       </div>
 
       {/* section tedinians */}
-      <div id="tedinians" className="py-20">
+      <div id="tedinians" className="bg-space1 text-white py-20">
         <div className="text-center">
           <h1 className="text-3xl lg:text-4xl font-bold mb-5">Kami, TeDi Rangers</h1>
           <h2 className="text-xl lg:text-2xl mb-10">Membangun aplikasi TeDi untuk kamu, Tedinians</h2>
@@ -220,9 +233,9 @@ function HomePage() {
       </div>
 
       {/* section blog */}
-      <div id="blog" className="bg-gradient-to-b from-blue1 to-blue2 relative py-20">
+      <div id="blog" className="bg-space1 relative py-20">
         <div className="absolute bottom-0 left-0">
-          <img src="./images/shape2.svg" alt="shape" className="w-screen" />
+          {/* <img src="./images/shape2.svg" alt="shape" className="w-screen" /> */}
         </div>
         <div className="container mx-auto flex flex-col text-white px-6 lg:px-20">
           <div className="mb-16">

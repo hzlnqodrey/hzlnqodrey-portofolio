@@ -1,14 +1,14 @@
 
 function Footer() {
   return (
-    <footer className="flex flex-col justify-center items-center pt-20">
+    <footer className="bg-space1 flex flex-col justify-center items-center pt-20">
       <div className="w-full flex flex-col lg:flex-row text-grey px-5 pb-10 md:px-20 lg:gap-16">
         <div className="basis-1 lg:basis-4/6">
           <div className="flex flex-row justify-items-center">
             <img src="/images/logo-tedi.svg" alt="logo tedi" className="mr-5 w-2/5" />
-            <h2 className="text-lg lg:text-2xl text-justify">TeDi (Teman Disabilitas) adalah startup sosial yang bergerak dibidang penyediaan aplikasi aksesibilitas dengan teknologi <span className="italic">machine learning.</span></h2>
+            <h2 className="text-lg text-white  lg:text-2xl text-justify">TeDi (Teman Disabilitas) adalah startup sosial yang bergerak dibidang penyediaan aplikasi aksesibilitas dengan teknologi <span className="italic">machine learning.</span></h2>
           </div>
-          <div className="flex flex-col lg:flex-row flex-wrap items-center gap-4 py-10">
+          <div className="text-white flex flex-col lg:flex-row flex-wrap items-center gap-4 py-10">
             <h4>Didukung oleh</h4>
             <div className="flex flex-row gap-x-4 items-center">
               <img src="./images/logo-kemendikbud.png" alt="logo kemendikbud" className="h-full" />
@@ -17,7 +17,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="basis-1 lg:basis-2/6">
+        <div className="text-white basis-1 lg:basis-2/6">
           <h2 className="text-xl lg:text-2xl font-bold mb-5">Kontak</h2>
           <ul className="">
             <li className="mb-3 flex">
@@ -32,8 +32,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="w-full bg-light-grey flex justify-center py-2">
-        <p className="font-bold text-grey">Copyright 2022, TeDi (Teman Disabilitas)</p>
+      <div className="w-full bg-gradient-to-tr from-horizon-text1 to-horizon-text2 flex justify-center py-2">
+        <p className="font-bold text-white">Copyright 2022, Hazlan Muhammad Qodri Made with ❤️</p>
       </div>
     </footer>
   )
