@@ -8,7 +8,7 @@ function HomePage() {
     <div id="home">
       {/* section jumbotron */}
       {/* <div id="jumbotron" className="bg-gradient-to-b from-blue1 to-blue2 relative min-h-[700px] h-screen flex items-center"> */}
-      <div id="jumbotron" className="bg-gradient-to-b from-blue1 to-blue2 relative min-h-[700px] flex items-center pb-20 pt-10">
+      <div id="jumbotron" className="bg-gradient-to-br from-space1 to-space2 bg-gradient-to-r relative min-h-[700px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 ">
           <img src="./images/shape1.svg" alt="shape" className="w-screen shape" />
         </div>
