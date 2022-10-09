@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      transparent: 'transparent',
       'white': "#fff", 
       'black': '#000',
       'grey': '#686868',
@@ -16,8 +17,8 @@ module.exports = {
       'yellow2': '#B27E15',
       'space1': '#111827',
       'space2': '#4b5563',
-      'earth-text1': '#99f6e4',
-      'earth-text2': '#d9f99d'
+      'horizon-text1': '#f97316',
+      'horizon-text2': '#fde047'
     },
     fontFamily: {
       'plus-jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],

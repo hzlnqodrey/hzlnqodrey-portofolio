@@ -8,7 +8,7 @@ function HomePage() {
     <div id="home">
       {/* section jumbotron */}
       {/* <div id="jumbotron" className="bg-gradient-to-b from-blue1 to-blue2 relative min-h-[700px] h-screen flex items-center"> */}
-      <div id="jumbotron" className="bg-gradient-to-br from-space1 to-space2 bg-gradient-to-r relative min-h-[700px] flex items-center pb-20 pt-10">
+      <div id="jumbotron" className="bg-gradient-to-tl from-space1 to-space2 relative min-h-[700px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 ">
           <img src="./images/shape1.svg" alt="shape" className="w-screen shape" />
         </div>
@@ -18,7 +18,7 @@ function HomePage() {
           {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
           <img src="./images/mobile-app.png" alt="mobile app" className="lg:absolute lg:right-40 max-w-sm mt-20 z-10 px-10 "/>
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
-            <h1 className="text-4xl font-bold mb-6">Aplikasi aksesibilitas<br/>all-in-one untuk<br/>Indonesia!</h1>
+            <h1 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2">Aplikasi aksesibilitas<br/>all-in-one untuk<br/>Indonesia!</h1>
             <h2 className="text-2xl mb-6">TeDi (Teman Disabilitas) bertujuan untuk menciptakan kebermanfaatan teknologi yang mempermudah hidup para difabel.</h2>
             <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a>
           </div>
