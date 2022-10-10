@@ -277,13 +277,13 @@ function HomePage() {
               <SplideTrack>
                 <SplideSlide>
                   <div className="flex flex-col md:flex-row">
-                    <a href='https://github.com/Thisable-Dev'><img src="./images/project-1.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" /></a>
+                    <img src="./images/project-1.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                     <div className="md:ml-8 lg:ml-14">
                       <img src="./images/ic-quote.svg" alt="quote"/>
-                      <h1 className="text-xl lg:text-3xl text-justify">"Semoga inovasi yang dibangun oleh TeDi bisa menjadi contoh bagi anak-anak muda untuk terus bermanfaat bagi sesama."</h1>
+                      <h1 className="text-xl lg:text-3xl text-justify">"The first all-in-one accessibility app in Indonesia for all types of disability. Providing an app for disabilities to make it easier for them to communicate and live their daily life. Thisable provide 4 features: BISINDO Translator, Object Detection, Text Detection, and Currency Detection. It unlocks new ways to use your phone that make your life easier!"</h1>
                       <a href='https://github.com/Thisable-Dev'>
-                        <h2 className="text-xl lg:text-2xl font-bold mt-12">Mochamad Ridwan Kamil</h2>
-                        <h2 className="text-xl lg:text-2xl ">Gubernur Jawa Barat</h2>
+                        <h2 className="text-xl lg:text-2xl font-bold mt-12">Thisable</h2>
+                        <h2 className="text-xl lg:text-2xl ">Thisable - Bangkit Academy 2022 Capstone Project</h2>
                       </a>
                     </div>
                   </div>
