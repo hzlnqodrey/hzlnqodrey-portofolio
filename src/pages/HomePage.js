@@ -109,7 +109,7 @@ function HomePage() {
       {/* section experience */}
       <div id="experience" className="bg-space1 relative min-h-[900px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 top-5">
-          <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10">Experience</h1>
+          <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10">Experience <span className="text-white">🏋️</span></h1>
           <Chrono 
               items={items}
               mode="VERTICAL_ALTERNATING"
