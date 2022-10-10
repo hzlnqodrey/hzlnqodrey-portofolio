@@ -277,34 +277,40 @@ function HomePage() {
               <SplideTrack>
                 <SplideSlide>
                   <div className="flex flex-col md:flex-row">
-                    <img src="./images/project-1.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                    <a href='https://github.com/Thisable-Dev'><img src="./images/project-1.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" /></a>
                     <div className="md:ml-8 lg:ml-14">
                       <img src="./images/ic-quote.svg" alt="quote"/>
                       <h1 className="text-xl lg:text-3xl text-justify">"Semoga inovasi yang dibangun oleh TeDi bisa menjadi contoh bagi anak-anak muda untuk terus bermanfaat bagi sesama."</h1>
-                      <h2 className="text-xl lg:text-2xl font-bold mt-12">Mochamad Ridwan Kamil</h2>
-                      <h2 className="text-xl lg:text-2xl ">Gubernur Jawa Barat</h2>
+                      <a href='https://github.com/Thisable-Dev'>
+                        <h2 className="text-xl lg:text-2xl font-bold mt-12">Mochamad Ridwan Kamil</h2>
+                        <h2 className="text-xl lg:text-2xl ">Gubernur Jawa Barat</h2>
+                      </a>
                     </div>
                   </div>
                 </SplideSlide>
                 <SplideSlide>
                   <div className="flex flex-col md:flex-row">
-                    <img src="./images/project-2.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                    <a href='https://github.com/Thisable-Dev'><img src="./images/project-2.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" /></a>
                     <div className="md:ml-8 lg:ml-14">
-                      <img src="./images/ic-quote.svg" alt="quote" />
-                      <h1 className="text-xl lg:text-3xl text-justify">"Semoga pembuat software semakin memahami bahwa disabilitas netra sangat terbantu dengan kemajuan teknologi sekarang."</h1>
-                      <h2 className="text-xl lg:text-2xl font-bold mt-12">Akbar Pamungkas</h2>
-                      <h2 className="text-xl lg:text-2xl ">Siswa SLB A Kota Sukabumi</h2>
+                      <img src="./images/ic-quote.svg" alt="quote"/>
+                      <h1 className="text-xl lg:text-3xl text-justify">"Semoga inovasi yang dibangun oleh TeDi bisa menjadi contoh bagi anak-anak muda untuk terus bermanfaat bagi sesama."</h1>
+                      <a href='https://github.com/Thisable-Dev'>
+                        <h2 className="text-xl lg:text-2xl font-bold mt-12">Mochamad Ridwan Kamil</h2>
+                        <h2 className="text-xl lg:text-2xl ">Gubernur Jawa Barat</h2>
+                      </a>
                     </div>
                   </div>
                 </SplideSlide>
                 <SplideSlide>
                   <div className="flex flex-col md:flex-row">
-                    <img src="./images/project-3.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                    <a href='https://github.com/Thisable-Dev'><img src="./images/project-3.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" /></a>
                     <div className="md:ml-8 lg:ml-14">
-                      <img src="./images/ic-quote.svg" alt="quote" />
-                      <h1 className="text-xl lg:text-3xl text-justify">"Setelah launching nanti, aplikasi TeDI sangat bermanfaat bagi anak-anak kami untuk bisa lebih mengakses banyak hal melalui aplikasi ini."</h1>
-                      <h2 className="text-xl lg:text-2xl font-bold mt-12">Ibu Tanti</h2>
-                      <h2 className="text-xl lg:text-2xl ">Kepala Sekolah SLB A Kota Sukabumi</h2>
+                      <img src="./images/ic-quote.svg" alt="quote"/>
+                      <h1 className="text-xl lg:text-3xl text-justify">"Semoga inovasi yang dibangun oleh TeDi bisa menjadi contoh bagi anak-anak muda untuk terus bermanfaat bagi sesama."</h1>
+                      <a href='https://github.com/Thisable-Dev'>
+                        <h2 className="text-xl lg:text-2xl font-bold mt-12">Mochamad Ridwan Kamil</h2>
+                        <h2 className="text-xl lg:text-2xl ">Gubernur Jawa Barat</h2>
+                      </a>
                     </div>
                   </div>
                 </SplideSlide>
