@@ -360,17 +360,17 @@ function HomePage() {
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/photos/IMG_2773.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="https://storage.googleapis.com/hzlnqodrey-profile-123/IMG_2773.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/photos/IMG_2774.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="https://storage.googleapis.com/hzlnqodrey-profile-123/IMG_2774.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/photos/IMG_2775.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="https://storage.googleapis.com/hzlnqodrey-profile-123/IMG_2775.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                     </SplideTrack>
