@@ -339,9 +339,9 @@ function HomePage() {
                     <SplideTrack>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/2.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/1.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/3.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
