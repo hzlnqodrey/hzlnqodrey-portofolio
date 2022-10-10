@@ -82,30 +82,35 @@ function Navbar() {
             <li className="py-4"><a href="#techstack" className="mr-5">Tech Stack</a></li>
             <li className="py-4"><a href="#tools" className="mr-5">Tools</a></li>
             <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
+            <li className="py-4"><a href="#photos" className="mr-5">Photos</a></li>
             <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Other socials</a></li>
           </ul>
           {/* responsive < laptop */}
           <ul className="hidden lg:flex items-center">
             <li><a href="#home" className={classNames(
-              scrollPosition >= 0 && scrollPosition < 700 ? 'font-bold' : 'font-normal',
+              scrollPosition >= 300 && scrollPosition < 700 ? 'font-bold text-horizon-text1' : 'font-normal',
               'mr-5'
             )}>Beranda</a></li>
             <li><a href="#experience" className={classNames(
-              scrollPosition >= 700 && scrollPosition < 1400 ? 'font-bold' : 'font-normal',
+              scrollPosition >= 700 && scrollPosition < 1400 ? 'font-bold text-horizon-text1' : 'font-normal',
               'mr-5'
             )}>Experience</a></li>
             <li><a href="#techstack" className={classNames(
-              scrollPosition >= 1400 && scrollPosition < 2100 ? 'font-bold' : 'font-normal',
+              scrollPosition >= 1400 && scrollPosition < 2100 ? 'font-bold text-horizon-text1' : 'font-normal',
               'mr-5'
             )}>Tech Stack</a></li>
             <li><a href="#tools" className={classNames(
-              scrollPosition >= 2100 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
+              scrollPosition >= 2100 && scrollPosition < 3000 ? 'font-bold text-horizon-text1' : 'font-normal',
               'mr-5'
             )}>Tools</a></li>
             <li><a href="#projects" className={classNames(
-              scrollPosition >= 3000 && scrollPosition < 3700 ? 'font-bold' : 'font-normal',
+              scrollPosition >= 3000 && scrollPosition < 3600 ? 'font-bold text-horizon-text1' : 'font-normal',
               'mr-5'
             )}>Projects</a> </li>
+            <li><a href="#photos" className={classNames(
+              scrollPosition >= 3600 && scrollPosition < 4500 ? 'font-bold text-horizon-text1' : 'font-normal',
+              'mr-5'
+            )}>Photos</a> </li>
             <li><a href="https://linktr.ee/hzlnqodrey" className={classNames(
               scrollPosition < 100 ? 'bg-white text-blue1' : 'bg-blue1 text-white',
               'rounded p-2 transition'

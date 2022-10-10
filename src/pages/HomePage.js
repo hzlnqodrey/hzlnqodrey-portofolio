@@ -321,7 +321,7 @@ function HomePage() {
       </div>
 
       {/* section photos */}
-      <div id="tedinians" className="bg-space1 relative text-white py-20">
+      <div id="photos" className="bg-space1 relative text-white py-20">
         <div className='hidden md:block'>
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-1' />
           <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 z-1' />
