@@ -186,44 +186,71 @@ function HomePage() {
         <div className="grid grid-cols-1 items-center lg:grid-cols-2 mx-auto px-10 md:px-32 xl:px-56">
           <div className="lg:pr-20 relative">
             <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute -top-16 left-0 md:left-10 lg:-top-10 lg:-left-16 -z-20' />
-            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Language</p>
+            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Language <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
           </div>
-          <div className="grid grid-cols-2 gap-8 md:gap-12 xl:gap-16">
-            <div className="relative flex items-center">
-              <img src="./images/img-fitur1.png" alt="bisindo translator" className="w-full" />
-              <div className="absolute bottom-3 left-3 xl:bottom-5 xl:left-5 flex flex-row items-center">
-                <div className="bg-white w-10 h-10 md:w-14 md:h-14 lg:w-12 lg:h-12 xl:w-14 xl:h-14 rounded flex justify-center mr-3">
-                  <img src="./images/ic-fitur1.svg" alt="bisindo" className="my-2" />
-                </div>
-                <h2 className="text-base md:text-xl lg:text-lg xl:text-xl text-white"><span className="font-bold">BISINDO</span><br/>Translator</h2>
-              </div>
+          <div className="grid grid-cols-7 gap-8 md:gap-12 xl:gap-16">
+          <div className="relative flex items-center">
+              <img src="./images/tools/design/figma-logo.svg" alt="figma logo" className="w-10" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/img-fitur2.png" alt="bisindo translator" className="w-full" />
-              <div className="absolute bottom-3 left-3 xl:bottom-5 xl:left-5 flex flex-row items-center">
-                <div className="bg-white w-10 h-10 md:w-14 md:h-14 lg:w-12 lg:h-12 xl:w-14 xl:h-14 rounded flex justify-center mr-3">
-                  <img src="./images/ic-fitur2.svg" alt="bisindo" className="my-2" />
-                </div>
-                <h2 className="text-base md:text-xl lg:text-lg xl:text-xl text-white"><span className="font-bold">Object</span><br/>Detection</h2>
-              </div>
+              <img src="./images/tools/frontend/javascript-logo.svg" alt="javascript logo" className="w-10" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/img-fitur3.png" alt="bisindo translator" className="w-full" />
-              <div className="absolute bottom-3 left-3 xl:bottom-5 xl:left-5 flex flex-row items-center">
-                <div className="bg-white w-10 h-10 md:w-14 md:h-14 lg:w-12 lg:h-12 xl:w-14 xl:h-14 rounded flex justify-center mr-3">
-                  <img src="./images/ic-fitur3.svg" alt="bisindo" className="my-2" />
-                </div>
-                <h2 className="text-base md:text-xl lg:text-lg xl:text-xl text-white"><span className="font-bold">Currency</span><br/>Detection</h2>
-              </div>
+              <img src="./images/tools/frontend/tailwind-logo.svg" alt="tailwind logo" className="w-10" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/img-fitur4.png" alt="bisindo translator" className="w-full" />
-              <div className="absolute bottom-3 left-3 xl:bottom-5 xl:left-5 flex flex-row items-center">
-                <div className="bg-white w-10 h-10 md:w-14 md:h-14 lg:w-12 lg:h-12 xl:w-14 xl:h-14 rounded flex justify-center mr-3">
-                  <img src="./images/ic-fitur4.svg" alt="bisindo" className="my-2" />
-                </div>
-                <h2 className="text-base md:text-xl lg:text-lg xl:text-xl text-white"><span className="font-bold">Text</span><br/>Detection</h2>
-              </div>
+              <img src="./images/tools/frontend/react-logo.svg" alt="react logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/cpp-logo.svg" alt="cplusplus logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/golang-logo.svg" alt="golang logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/nodejs-logo.svg" alt="nodejs logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/php-logo.svg" alt="php logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/mysql-logo.svg" alt="mysql logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/mongodb-logo.svg" alt="mongodb translator" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/postman-logo.svg" alt="postman translator" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/docker-logo.svg" alt="docker logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/kubernetes-logo.svg" alt="kubernetes translator" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/linux-logo.svg" alt="linux logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/firebase-logo.svg" alt="firebase logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/google-cloud-logo.svg" alt="gcp logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/aws-logo.svg" alt="aws logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/jenkins-logo.svg" alt="jenkins logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/csharp-logo.svg" alt="csharp translator" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/backend/python-logo.svg" alt="python logo" className="w-10" />
+            </div>
+            <div className="relative flex items-center">
+              <img src="./images/tools/machine-learning/tensorflow-logo.svg" alt="tensorflow logo" className="w-10" />
             </div>
           </div>
         </div>
