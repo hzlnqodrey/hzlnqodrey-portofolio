@@ -81,7 +81,7 @@ function Navbar() {
             <li className="py-4"><a href="#experience" className="mr-5">Experience</a></li>
             <li className="py-4"><a href="#feature" className="mr-5">Fitur</a></li>
             <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
-            <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Look my other socials</a></li>
+            <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Other socials</a></li>
           </ul>
           {/* responsive < laptop */}
           <ul className="hidden lg:flex items-center">
@@ -106,7 +106,7 @@ function Navbar() {
               'rounded p-2 transition'
             )}>Unduh Versi Beta</a></li> */}
             <li><a href="https://linktr.ee/hzlnqodrey" className="rounded p-2 transition bg-blue3 text-blue1">
-              Look my other socials
+              Other socials
             </a></li>
           </ul>
         </div>
