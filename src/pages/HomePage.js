@@ -74,21 +74,18 @@ function HomePage() {
       {/* section jumbotron */}
       <div id="jumbotron" className="bg-space1 relative min-h-[960px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 ">
-          {/* <img src="./images/shape1.svg" alt="shape" className="w-screen shape" /> */}
         </div>
-        {/* <div className="absolute bottom-0 left-0 right-0 bg-white w-full h-px"></div> */}
-        {/* <img src='./images/shape-light.svg' alt='light' className='hidden lg:block lg:absolute mix-blend-screen right-0 bottom-0'/> */}
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center container mx-auto px-4 lg:px-10 xl:px-14 2xl:20">
           {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
           <img src="./images/profile_99.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-400 max-w-sm mt-20 top-40 bottom-50"/>
           <div className='hidden md:block'>
-            <img src='./images/ellipse-11-gr.svg' alt='eclipse' className="lg:absolute lg:right-60 lg:bottom-80 max-w-sm z-1 px-400 max-w-lg mt-20 top-35 bottom-50 z-10"/>
+            <img src='./images/ellipse-11-gr.svg' alt='eclipse' className="lg:absolute lg:right-60 lg:bottom-80 md:right-30 md:top-35 max-w-sm z-1 px-400 max-w-sm mt-0 top-35 bottom-50 z-10"/>
           </div>
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
             <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6 mt-12">Hi there <span className="text-white">👋</span>!, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
             <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
-            {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a> */}
+            {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#Kemana">Button</a> */}
             <div className="text-white basis-3 lg:basis-2/6 mt-50">
             <ul className="flex flex-row justify-self-start content-between">
               <li className="flex">
@@ -189,85 +186,77 @@ function HomePage() {
             <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Languages <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
           </div>
           <div className="grid grid-cols-7 gap-8 md:gap-12 xl:gap-16">
-          <div className="relative flex items-center">
-              <img src="./images/tools/design/figma-logo.svg" alt="figma logo" className="w-10" />
+            <div className="relative flex items-center">
+                <img src="./images/tools/design/figma-logo.svg" alt="figma logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/frontend/javascript-logo.svg" alt="javascript logo" className="w-10" />
+              <img src="./images/tools/frontend/javascript-logo.svg" alt="javascript logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/frontend/tailwind-logo.svg" alt="tailwind logo" className="w-10" />
+              <img src="./images/tools/frontend/tailwind-logo.svg" alt="tailwind logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/frontend/react-logo.svg" alt="react logo" className="w-10" />
+              <img src="./images/tools/frontend/react-logo.svg" alt="react logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/cpp-logo.svg" alt="cplusplus logo" className="w-10" />
+              <img src="./images/tools/backend/cpp-logo.svg" alt="cplusplus logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/golang-logo.svg" alt="golang logo" className="w-10" />
+              <img src="./images/tools/backend/golang-logo.svg" alt="golang logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/nodejs-logo.svg" alt="nodejs logo" className="w-10" />
+              <img src="./images/tools/backend/nodejs-logo.svg" alt="nodejs logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/php-logo.svg" alt="php logo" className="w-10" />
+              <img src="./images/tools/backend/php-logo.svg" alt="php logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/mysql-logo.svg" alt="mysql logo" className="w-10" />
+              <img src="./images/tools/backend/mysql-logo.svg" alt="mysql logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/mongodb-logo.svg" alt="mongodb translator" className="w-10" />
+              <img src="./images/tools/backend/mongodb-logo.svg" alt="mongodb translator" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/postman-logo.svg" alt="postman translator" className="w-10" />
+              <img src="./images/tools/backend/postman-logo.svg" alt="postman translator" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/docker-logo.svg" alt="docker logo" className="w-10" />
+              <img src="./images/tools/backend/docker-logo.svg" alt="docker logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/kubernetes-logo.svg" alt="kubernetes translator" className="w-10" />
+              <img src="./images/tools/backend/kubernetes-logo.svg" alt="kubernetes translator" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/linux-logo.svg" alt="linux logo" className="w-10" />
+              <img src="./images/tools/backend/linux-logo.svg" alt="linux logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/firebase-logo.svg" alt="firebase logo" className="w-10" />
+              <img src="./images/tools/backend/firebase-logo.svg" alt="firebase logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/google-cloud-logo.svg" alt="gcp logo" className="w-10" />
+              <img src="./images/tools/backend/google-cloud-logo.svg" alt="gcp logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/aws-logo.svg" alt="aws logo" className="w-10" />
+              <img src="./images/tools/backend/aws-logo.svg" alt="aws logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/jenkins-logo.svg" alt="jenkins logo" className="w-10" />
+              <img src="./images/tools/backend/jenkins-logo.svg" alt="jenkins logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/csharp-logo.svg" alt="csharp translator" className="w-10" />
+              <img src="./images/tools/backend/csharp-logo.svg" alt="csharp translator" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/backend/python-logo.svg" alt="python logo" className="w-10" />
+              <img src="./images/tools/backend/python-logo.svg" alt="python logo" className="w-20" />
             </div>
             <div className="relative flex items-center">
-              <img src="./images/tools/machine-learning/tensorflow-logo.svg" alt="tensorflow logo" className="w-10" />
+              <img src="./images/tools/machine-learning/tensorflow-logo.svg" alt="tensorflow logo" className="w-20" />
             </div>
           </div>
         </div>
       </div>
 
-      {/* section projects */}
-      <div id="tedinians" className="bg-space1 text-white py-20">
-        <div className="text-center">
-          <h1 className="text-3xl lg:text-4xl font-bold mb-5">Kami, TeDi Rangers</h1>
-          <h2 className="text-xl lg:text-2xl mb-10">Membangun aplikasi TeDi untuk kamu, Tedinians</h2>
-        </div>
-      </div>
 
       {/* section blog */}
       <div id="projects" className="bg-space1 relative py-20">
         <div className="absolute bottom-0 left-0">
-          {/* <img src="./images/shape2.svg" alt="shape" className="w-screen" /> */}
         </div>
         <div className='hidden md:block'>
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-1' />
@@ -276,7 +265,7 @@ function HomePage() {
         <div className="container mx-auto flex flex-col text-white px-6 lg:px-20">
           <div className="mb-16">
             <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 md:mb-0">
-              PROJECTS <span className="text-white">🚀</span>
+              Projects <span className="text-white">🚀</span>
             </h1>
           </div>
           <Splide hasTrack={ false } aria-label="My Favorite Images">
@@ -323,11 +312,82 @@ function HomePage() {
             </div>  
           </Splide>
         </div>
-
-        
       </div>
 
-    </div>
+      {/* section photos */}
+      <div id="tedinians" className="bg-space1 relative text-white py-20">
+        <div className='hidden md:block'>
+          <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-1' />
+          <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 z-1' />
+        </div>
+        <div className="text-center">
+          <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-5">Photos <span className="text-white">📸</span> of me </h1>
+          <div className="container mx-auto flex flex-col text-white px-6 lg:px-20">
+            <div className="mb-16">
+              </div>
+                <Splide hasTrack={ false } aria-label="My Favorite Images">
+                  <div className="custom-wrapper justify-items-center content-around ">
+                    <div className="splide__arrows absolute right-0 -top-24">
+                      <button className="splide__arrow splide__arrow--prev mr-5"><img src="./images/ic-prev.svg" alt="prev"/></button>
+                      <button className="splide__arrow splide__arrow--next"><img src="./images/ic-next.svg" alt="next"/></button>
+                    </div>
+                    <SplideTrack>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                          <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-start content-around">
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                    </SplideTrack>
+                  </div>  
+                </Splide>
+              </div>
+            </div>
+        </div>
+      </div>
   )
 };
 
