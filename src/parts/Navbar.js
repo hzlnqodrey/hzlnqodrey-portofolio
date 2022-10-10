@@ -75,7 +75,7 @@ function Navbar() {
             <li className="py-4"><a href="#problem" className="mr-5">Tentang Kami</a></li>
             <li className="py-4"><a href="#feature" className="mr-5">Fitur</a></li>
             <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
-            <li className="py-4"><NavLink to="" className="bg-blue1 text-white rounded-full py-2 px-5">Unduh Versi Beta</NavLink></li>
+            <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Look my other socials</a></li>
           </ul>
           {/* responsive < laptop */}
           <ul className="hidden lg:flex items-center">
@@ -99,8 +99,8 @@ function Navbar() {
               scrollPosition < 100 ? 'bg-white text-blue1' : 'bg-blue1 text-white',
               'rounded p-2 transition'
             )}>Unduh Versi Beta</a></li> */}
-            <li><a href="https://linktr.ee/tedi.temandisabilitas" className="rounded p-2 transition bg-blue3 text-blue1">
-              Unduh Versi Beta
+            <li><a href="https://linktr.ee/hzlnqodrey" className="rounded p-2 transition bg-blue3 text-blue1">
+              Look my other socials
             </a></li>
           </ul>
         </div>
