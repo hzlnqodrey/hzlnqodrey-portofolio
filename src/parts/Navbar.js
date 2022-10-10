@@ -101,13 +101,10 @@ function Navbar() {
               scrollPosition >= 3000 && scrollPosition < 3700 ? 'font-bold' : 'font-normal',
               'mr-5'
             )}>Blog</a> </li>
-            {/* <li><a href="https://linktr.ee/tedi.temandisabilitas" className={classNames(
+            <li><a href="https://linktr.ee/hzlnqodrey" className={classNames(
               scrollPosition < 100 ? 'bg-white text-blue1' : 'bg-blue1 text-white',
               'rounded p-2 transition'
-            )}>Unduh Versi Beta</a></li> */}
-            <li><a href="https://linktr.ee/hzlnqodrey" className="rounded p-2 transition bg-blue3 text-blue1">
-              Other socials
-            </a></li>
+            )}>Other socials</a></li>
           </ul>
         </div>
       </nav>
