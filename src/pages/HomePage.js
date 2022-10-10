@@ -84,7 +84,7 @@ function HomePage() {
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
             <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6 mt-12">Hi there <span className="text-white">👋</span>!, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
-            <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
+            <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6"><a href="https://github.com/hzlnqodrey">@hzln.qodrey</a></span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
             {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#Kemana">Button</a> */}
             <div className="text-white basis-3 lg:basis-2/6 mt-50">
             <ul className="flex flex-row justify-self-start content-between">
@@ -92,7 +92,7 @@ function HomePage() {
               <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/linkedin-logo.svg" alt="icon" className="w-5 mr-3 bg-spa"/></a>
               </li>
               <li className="ml-10 flex">
-              <a href="https://instagram.com/tedi.temandisabilitas"><img src="./images/instagram-logo.svg" alt="icon" className="w-5 mr-3"/></a>
+              <a href="https://instagram.com/hzln.qodrey"><img src="./images/instagram-logo.svg" alt="icon" className="w-5 mr-3"/></a>
               </li>
               <li className="ml-10 flex">
               <a href="https://github.com/hzlnqodrey"><img src="./images/github-logo.svg" alt="icon" className="w-5 mr-3"/></a>
@@ -277,7 +277,7 @@ function HomePage() {
               <SplideTrack>
                 <SplideSlide>
                   <div className="flex flex-col md:flex-row">
-                    <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                    <img src="./images/project-1.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                     <div className="md:ml-8 lg:ml-14">
                       <img src="./images/ic-quote.svg" alt="quote"/>
                       <h1 className="text-xl lg:text-3xl text-justify">"Semoga inovasi yang dibangun oleh TeDi bisa menjadi contoh bagi anak-anak muda untuk terus bermanfaat bagi sesama."</h1>
@@ -287,8 +287,8 @@ function HomePage() {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                    <div className="flex flex-col md:flex-row">
-                    <img src="./images/blog2.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                  <div className="flex flex-col md:flex-row">
+                    <img src="./images/project-2.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                     <div className="md:ml-8 lg:ml-14">
                       <img src="./images/ic-quote.svg" alt="quote" />
                       <h1 className="text-xl lg:text-3xl text-justify">"Semoga pembuat software semakin memahami bahwa disabilitas netra sangat terbantu dengan kemajuan teknologi sekarang."</h1>
@@ -298,8 +298,8 @@ function HomePage() {
                   </div>
                 </SplideSlide>
                 <SplideSlide>
-                    <div className="flex flex-col md:flex-row">
-                    <img src="./images/blog3.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                  <div className="flex flex-col md:flex-row">
+                    <img src="./images/project-3.svg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                     <div className="md:ml-8 lg:ml-14">
                       <img src="./images/ic-quote.svg" alt="quote" />
                       <h1 className="text-xl lg:text-3xl text-justify">"Setelah launching nanti, aplikasi TeDI sangat bermanfaat bagi anak-anak kami untuk bisa lebih mengakses banyak hal melalui aplikasi ini."</h1>
