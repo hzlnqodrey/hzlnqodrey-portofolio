@@ -76,7 +76,6 @@ function HomePage() {
         <div className="absolute bottom-0 left-0 ">
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center container mx-auto px-4 lg:px-10 xl:px-14 2xl:20">
-          {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
           <img src="./images/profile_99.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-400 max-w-sm mt-20 top-40 bottom-50"/>
           <div className='hidden md:block'>
             <img src='./images/ellipse-11-gr.svg' alt='eclipse' className="lg:absolute lg:right-60 lg:bottom-80 md:right-30 md:top-35 max-w-sm z-1 px-400 max-w-sm mt-0 top-35 bottom-50 z-10"/>
@@ -85,20 +84,20 @@ function HomePage() {
             <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6 mt-12">Hi there <span className="text-white">👋</span>!, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
             <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6"><a href="https://github.com/hzlnqodrey">@hzln.qodrey</a></span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
-            {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#Kemana">Button</a> */}
             <div className="text-white basis-3 lg:basis-2/6 mt-50">
-            <ul className="flex flex-row justify-self-start content-between">
-              <li className="flex">
-              <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/linkedin-logo.svg" alt="icon" className="w-5 mr-3 bg-spa"/></a>
-              </li>
-              <li className="ml-10 flex">
-              <a href="https://instagram.com/hzln.qodrey"><img src="./images/instagram-logo.svg" alt="icon" className="w-5 mr-3"/></a>
-              </li>
-              <li className="ml-10 flex">
-              <a href="https://github.com/hzlnqodrey"><img src="./images/github-logo.svg" alt="icon" className="w-5 mr-3"/></a>
-              </li>
-            </ul>
-          </div>
+              <ul className="flex flex-row justify-self-start content-between">
+                <li className="flex">
+                <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/linkedin-logo.svg" alt="icon" className="w-5 mr-3 bg-spa"/></a>
+                </li>
+                <li className="ml-10 flex">
+                <a href="https://instagram.com/hzln.qodrey"><img src="./images/instagram-logo.svg" alt="icon" className="w-5 mr-3"/></a>
+                </li>
+                <li className="ml-10 flex">
+                <a href="https://github.com/hzlnqodrey"><img src="./images/github-logo.svg" alt="icon" className="w-5 mr-3"/></a>
+                </li>
+              </ul>
+            </div>
+            <button className="hover:bg-yellow2 bg-gradient-to-r from-horizon-text1 to-horizon-text2 font-bold px-5 py-2 rounded-md mt-8" href="mailto:hazlanqodri2020work@gmail.com">Kirim pesan ke saya!</button>
           </div>
         </div>
       </div>
