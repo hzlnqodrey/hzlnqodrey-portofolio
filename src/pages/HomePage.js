@@ -163,7 +163,7 @@ function HomePage() {
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-20' />
           <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 z-20' />
         </div>
-        <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-20">Tech Stack <span className="text-white">👨‍💻</span></h1>
+        <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-20">Tech Stack <span className="text-white">👨‍💻</span></h1>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center container mx-auto lg:px-10 xl:px-14 2xl:20">
           <div className="flex flex-col justify-center mb-10 md:mb-0">
             <img src="./images/tf-logo.svg" alt="icon persons" className="max-h-40 mb-5" />
@@ -186,7 +186,7 @@ function HomePage() {
         <div className="grid grid-cols-1 items-center lg:grid-cols-2 mx-auto px-10 md:px-32 xl:px-56">
           <div className="lg:pr-20 relative">
             <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute -top-16 left-0 md:left-10 lg:-top-10 lg:-left-16 -z-20' />
-            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Languages <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
+            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Languages <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
           </div>
           <div className="grid grid-cols-7 gap-8 md:gap-12 xl:gap-16">
           <div className="relative flex items-center">
@@ -275,7 +275,7 @@ function HomePage() {
         </div>
         <div className="container mx-auto flex flex-col text-white px-6 lg:px-20">
           <div className="mb-16">
-            <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 md:mb-0">
+            <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 md:mb-0">
               PROJECTS <span className="text-white">🚀</span>
             </h1>
           </div>
