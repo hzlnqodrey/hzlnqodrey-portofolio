@@ -201,35 +201,6 @@ function HomePage() {
               <h3 className="text-sm lg:text-lg">Incubation Lecturer</h3>
             </div>
           </div>
-          {/* <div className="flex flex-row flex-wrap justify-center items-end container mx-auto px-5 lg:px-16 xl:px-20 2xl:px-40 relative">
-            
-            <div className='hidden lg:block'>
-              <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute -top-20 left-2 xl:left-20 -z-20' />
-              <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-32 right-2 xl:right-20 -z-20' />
-            </div>
-            
-            <div className="basis-1/3 lg:basis-1/3 mb-10 flex flex-col items-center">
-              <img src="./images/img-pak-rivani.png" alt="rivani" />
-              <div className="text-center mt-2 mr-5 h-20">
-                <h3 className="text-sm lg:text-lg font-bold max-w-56">Rivani, S.IP., MM., DBA.</h3>
-                <h3 className="text-sm lg:text-lg">Incubation Lecturer</h3>
-              </div>
-            </div>
-            <div className="basis-1/3 lg:basis-1/3 mb-10 flex flex-col items-center">
-              <img src="./images/img-bu-anin.png" alt="anin" />
-              <div className="text-center mt-2 mr-5 h-20">
-                <h3 className="text-sm lg:text-lg font-bold max-w-56">Dr. Anindya Apriliyanti Pravitasari, S.Si., M.Si.</h3>
-                <h3 className="text-sm lg:text-lg">Incubation Lecturer</h3>
-              </div>
-            </div>
-            <div className="basis-1/3 lg:basis-1/3 mb-10 flex flex-col items-center">
-              <img src="./images/img-pak-yusep.png" alt="yusep" />
-              <div className="text-center mt-2 mr-5 h-20">
-                <h3 className="text-sm lg:text-lg font-bold max-w-56">Dr. Yusep Suparman, S.Si., M.Sc.</h3>
-                <h3 className="text-sm lg:text-lg">Incubation Lecturer</h3>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
 

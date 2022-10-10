@@ -1,5 +1,5 @@
 import { useScrollPosition } from '../hooks/useScrollPosition';
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Navbar() {
   
