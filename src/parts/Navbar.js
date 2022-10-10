@@ -71,30 +71,30 @@ function Navbar() {
           
           {/* sidebar mobile */}
           <ul className="sidebar lg:hidden bg-white text-black shadow fixed flex flex-col justify-start items top-0 bottom-0 -right-80 w-80 z-30 px-5 font-bold hover:text-blue" id="navUl">
-            <li className="py-4 mt-20"><NavLink to="" className="mr-5">Beranda</NavLink></li>
-            <li className="py-4"><NavLink to="about" className="mr-5">Tentang Kami</NavLink></li>
-            <li className="py-4"><NavLink to="feature" className="mr-5">Fitur</NavLink></li>
-            <li className="py-4"><NavLink to="blog" className="mr-5">Blog</NavLink></li>
+            <li className="py-4 mt-20"><a href="#home" className="mr-5">Beranda</a></li>
+            <li className="py-4"><a href="#problem" className="mr-5">Tentang Kami</a></li>
+            <li className="py-4"><a href="#feature" className="mr-5">Fitur</a></li>
+            <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
             <li className="py-4"><NavLink to="" className="bg-blue1 text-white rounded-full py-2 px-5">Unduh Versi Beta</NavLink></li>
           </ul>
           {/* responsive < laptop */}
           <ul className="hidden lg:flex items-center">
-            <li><NavLink to="" className={classNames(
+            <li><a href="#home" className={classNames(
               scrollPosition >= 0 && scrollPosition < 700 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Beranda</NavLink></li>
-            <li><NavLink to="about" className={classNames(
+            )}>Beranda</a></li>
+            <li><a href="#problem" className={classNames(
               scrollPosition >= 700 && scrollPosition < 1400 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Tentang Kami</NavLink></li>
-            <li><NavLink to="feature" className={classNames(
+            )}>Tentang Kami</a></li>
+            <li><a href="#feature" className={classNames(
               scrollPosition >= 1400 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Fitur</NavLink></li>
-            <li><NavLink to="blog" className={classNames(
+            )}>Fitur</a></li>
+            <li><a href="#blog" className={classNames(
               scrollPosition >= 3000 && scrollPosition < 3700 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Blog</NavLink></li>
+            )}>Blog</a> </li>
             {/* <li><a href="https://linktr.ee/tedi.temandisabilitas" className={classNames(
               scrollPosition < 100 ? 'bg-white text-blue1' : 'bg-blue1 text-white',
               'rounded p-2 transition'

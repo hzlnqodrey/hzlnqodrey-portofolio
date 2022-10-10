@@ -20,7 +20,7 @@ function HomePage() {
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
             <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hi there <span className="text-white">👋</span>, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
-            <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
+            <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
             {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a> */}
             <div className="text-white basis-3 lg:basis-2/6 mt-50">
             <ul className="flex flex-row justify-self-start content-between">
@@ -109,7 +109,7 @@ function HomePage() {
         </div>
       </div>
 
-      {/* section tedinians */}
+      {/* section projects */}
       <div id="tedinians" className="bg-space1 text-white py-20">
         <div className="text-center">
           <h1 className="text-3xl lg:text-4xl font-bold mb-5">Kami, TeDi Rangers</h1>
@@ -234,7 +234,7 @@ function HomePage() {
       </div>
 
       {/* section blog */}
-      <div id="blog" className="bg-space1 relative py-20">
+      <div id="projects" className="bg-space1 relative py-20">
         <div className="absolute bottom-0 left-0">
           {/* <img src="./images/shape2.svg" alt="shape" className="w-screen" /> */}
         </div>
