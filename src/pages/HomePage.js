@@ -163,14 +163,14 @@ function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center container mx-auto lg:px-10 xl:px-14 2xl:20">
           <div className="flex flex-col justify-center mb-10 md:mb-0">
             <img src="./images/tf-logo.svg" alt="icon persons" className="max-h-40 mb-5" />
-            <h2 className="text-xl lg:text-2xl text-center"><span className="font-bold">Tensorflow Developer</span><br/>currently studying hard*<br/>Entry Level</h2>
+            <h2 className="text-xl lg:text-2xl text-center"><span className="font-bold">Tensorflow Developer</span><br/>currently studying hard<br/>Noob Level*</h2>
           </div>
           <div className="flex flex-col justify-center">
             <img src="./images/gcp-logo.svg" alt="icon persons" className="max-h-40 mb-5" />
-            <h2 className="text-xl lg:text-2xl text-center"><span className="font-bold">Cloud and Backend Engineer</span><br/>works on many projects<br/>Junior Level</h2>
+            <h2 className="text-xl lg:text-2xl text-center"><span className="font-bold">Cloud and Backend Engineer</span><br/>works on many projects<br/>Junior Level*</h2>
           </div>
         </div>
-        <h3 className="text-base lg:text-lg text-center mt-28 mx-10">*Sewaktu-waktu akan di-update secara berkala.</h3>
+        <h3 className="text-base lg:text-lg text-center mt-28 mx-10">*will be updated regularly.</h3>
       </div>
 
       {/* section feature */}
