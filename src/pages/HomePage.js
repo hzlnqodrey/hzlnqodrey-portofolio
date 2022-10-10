@@ -155,7 +155,7 @@ function HomePage() {
       </div>
 
       {/* section techstack */}
-      <div id="problem" className="text-white bg-space1 py-20 flex flex-col min-h-[700px] lg:h-screen lg:items-center lg:justify-center relative">
+      <div id="techstack" className="text-white bg-space1 py-20 flex flex-col min-h-[700px] lg:h-screen lg:items-center lg:justify-center relative">
         <div className='hidden md:block'>
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-20' />
           <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 z-20' />
@@ -175,7 +175,7 @@ function HomePage() {
       </div>
 
       {/* section feature */}
-      <div id="feature" className="bg-space1 py-20">
+      <div id="tools" className="bg-space1 py-20">
         <div className='hidden md:block'>
           <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-20 xl:top-28 left-20 z-1' />
           <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-20 xl:bottom-28 right-20 z-1' />

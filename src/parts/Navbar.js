@@ -79,7 +79,8 @@ function Navbar() {
           <ul className="sidebar lg:hidden bg-white text-black shadow fixed flex flex-col justify-start items top-0 bottom-0 -right-80 w-80 z-30 px-5 font-bold hover:text-blue" id="navUl">
             <li className="py-4 mt-20"><a href="#home" className="mr-5">Beranda</a></li>
             <li className="py-4"><a href="#experience" className="mr-5">Experience</a></li>
-            <li className="py-4"><a href="#feature" className="mr-5">Fitur</a></li>
+            <li className="py-4"><a href="#techstack" className="mr-5">Tech Stack</a></li>
+            <li className="py-4"><a href="#tools" className="mr-5">Tools</a></li>
             <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
             <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Other socials</a></li>
           </ul>
@@ -93,10 +94,14 @@ function Navbar() {
               scrollPosition >= 700 && scrollPosition < 1400 ? 'font-bold' : 'font-normal',
               'mr-5'
             )}>Experience</a></li>
-            <li><a href="#feature" className={classNames(
-              scrollPosition >= 1400 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
+            <li><a href="#techstack" className={classNames(
+              scrollPosition >= 1400 && scrollPosition < 2100 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Fitur</a></li>
+            )}>Tech Stack</a></li>
+            <li><a href="#tools" className={classNames(
+              scrollPosition >= 2100 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
+              'mr-5'
+            )}>Tools</a></li>
             <li><a href="#blog" className={classNames(
               scrollPosition >= 3000 && scrollPosition < 3700 ? 'font-bold' : 'font-normal',
               'mr-5'
