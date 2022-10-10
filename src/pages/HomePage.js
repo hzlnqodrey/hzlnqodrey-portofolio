@@ -110,7 +110,7 @@ function HomePage() {
               items={items}
               mode="VERTICAL_ALTERNATING"
               twoColums
-              scrollable={{ scrollbar: false }}
+              enableOutline
               theme={{
                 primary: 'orange', // Short Description
                 secondary: 'orange', // Year Highlighter
