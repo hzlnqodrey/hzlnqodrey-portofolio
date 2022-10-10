@@ -102,10 +102,10 @@ function Navbar() {
               scrollPosition >= 2100 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
               'mr-5'
             )}>Tools</a></li>
-            <li><a href="#blog" className={classNames(
+            <li><a href="#projects" className={classNames(
               scrollPosition >= 3000 && scrollPosition < 3700 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Blog</a> </li>
+            )}>Projects</a> </li>
             <li><a href="https://linktr.ee/hzlnqodrey" className={classNames(
               scrollPosition < 100 ? 'bg-white text-blue1' : 'bg-blue1 text-white',
               'rounded p-2 transition'
