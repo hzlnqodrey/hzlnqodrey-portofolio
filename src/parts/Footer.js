@@ -21,7 +21,7 @@ function Footer() {
           <h2 className="text-xl lg:text-2xl font-bold mb-5">Kontak</h2>
           <ul className="">
             <li className="mb-3 flex">
-              <img src="./images/ic-loc.svg" alt="icon" className="w-5 mr-3"/><a href='https://goo.gl/maps/yaGzumzDsrcUjJAX6'>Gg. Garboruci, Kledokan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</a>
+              <img src="./images/ic-loc.svg" alt="icon" className="w-5 mr-3"/><a href='https://goo.gl/maps/rH9AgsyDrsAfxEcW7'>Gg. Garboruci, Kledokan, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</a>
             </li>
             <li className="mb-3 flex">
               <img src="./images/ic-mail.svg" alt="icon" className="w-5 mr-3"/><a href="mailto:hazlanqodri2020work@gmail.com">hazlanqodri2020work@gmail.com</a>
