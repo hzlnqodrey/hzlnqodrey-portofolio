@@ -1,2 +1,3 @@
 # Read This
-This repo made for completing dicoding submission | and profile site portofolio
+Hazlan Muhammad Qodri Site Portofolio
+>> https://hzlnqodrey.herokuapp.com/
