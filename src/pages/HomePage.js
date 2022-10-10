@@ -18,19 +18,20 @@ function HomePage() {
           {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
           <img src="./images/Profile_remove_bg.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-5 max-w-sm mt-20"/>
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
+            <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hi there <span className="text-white">👋</span>, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
-            <h2 className="font-regular text-1xl mb-6"> Hi, I am <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
+            <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
             {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a> */}
             <div className="text-white basis-3 lg:basis-2/6 mt-50">
             <ul className="flex flex-row justify-self-start content-between">
               <li className="flex">
-              <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/ic-loc.svg" alt="icon" className="w-10 mr-3 bg-spa"/></a>
+              <a href='https://www.linkedin.com/in/hazlanmqodri/'><img src="./images/linkedin-logo.svg" alt="icon" className="w-5 mr-3 bg-spa"/></a>
               </li>
               <li className="ml-10 flex">
-              <a href="https://instagram.com/tedi.temandisabilitas"><img src="./images/ic-ig.svg" alt="icon" className="w-10 mr-3"/></a>
+              <a href="https://instagram.com/tedi.temandisabilitas"><img src="./images/instagram-logo.svg" alt="icon" className="w-5 mr-3"/></a>
               </li>
               <li className="ml-10 flex">
-              <a href="mailto:info@temandisabilitas.com"><img src="./images/ic-mail.svg" alt="icon" className="w-10 mr-3"/></a>
+              <a href="https://github.com/hzlnqodrey"><img src="./images/github-logo.svg" alt="icon" className="w-5 mr-3"/></a>
               </li>
             </ul>
           </div>
