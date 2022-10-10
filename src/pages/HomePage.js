@@ -8,7 +8,7 @@ function HomePage() {
     {
       title: "October 2022 - Present",
       cardTitle: "Core Team Web and Cloud Curricula Division",
-      url: "http://google.com",
+      url: "https://gdsc.community.dev/universitas-pembangunan-nasional-veteran-yogyakarta/",
       cardSubtitle:
         "Google Developer Student Clubs Universitas Pembagunan Nasional 'Veteran' Yogyakarta",
       cardDetailedText: `Managing events, study jams, conference, webinars, etc.`
@@ -23,7 +23,7 @@ function HomePage() {
     {
       title: "May 2021 - Present",
       cardTitle: "Web Developer",
-      url: "papsprjct.com",
+      url: "https://papsprjct.com",
       cardSubtitle: `papsprjct.com · Full-time`,
       cardDetailedText: `Design the base ground of the static website. Its UI/UX, network, domain, and hosting on AWS (Using S3 bucket and Route 53), Supervise the development of web application, Manage multiple resources from multiple teams to coordinate according to the goals, and Increase product sales on Shopee with product showcasing and backlinks`
     },
@@ -186,7 +186,7 @@ function HomePage() {
         <div className="grid grid-cols-1 items-center lg:grid-cols-2 mx-auto px-10 md:px-32 xl:px-56">
           <div className="lg:pr-20 relative">
             <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute -top-16 left-0 md:left-10 lg:-top-10 lg:-left-16 -z-20' />
-            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Language <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
+            <p className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10 text-center lg:text-start">Programming Languages <span className="text-white">⚙️</span> <br/> and Tools <span className="text-white">🧰</span></p>
           </div>
           <div className="grid grid-cols-7 gap-8 md:gap-12 xl:gap-16">
           <div className="relative flex items-center">
