@@ -76,7 +76,7 @@ function HomePage() {
         <div className="absolute bottom-0 left-0 ">
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center container mx-auto px-4 lg:px-10 xl:px-14 2xl:20">
-          <img src="./images/profile_99.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-400 max-w-sm mt-20 top-40 bottom-50"/>
+          <img src="./images/profile-1-rmv-bg.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-400 max-w-sm mt-20 top-40 bottom-50"/>
           <div className='hidden md:block'>
             <img src='./images/ellipse-11-gr.svg' alt='eclipse' className="lg:absolute lg:right-60 lg:bottom-80 md:right-30 md:top-35 max-w-sm z-1 px-400 max-w-sm mt-0 top-35 bottom-50 z-10"/>
           </div>
@@ -339,37 +339,31 @@ function HomePage() {
                     <SplideTrack>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                          <img src="./images/photos/2.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                          <img src="./images/photos/1.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/1.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/2.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
                           <img src="./images/photos/3.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/4.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/5.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/6.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/IMG_2773.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/IMG_2774.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                            <img src="./images/blog1.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/IMG_2775.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
