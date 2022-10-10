@@ -1,13 +1,77 @@
 
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/core';
+import { Chrono } from "react-chrono";
 
 function HomePage() {
+  const items = [
+    {
+      title: "October 2022 - Present",
+      cardTitle: "Core Team Web and Cloud Curricula Division",
+      url: "http://google.com",
+      cardSubtitle:
+        "Google Developer Student Clubs Universitas Pembagunan Nasional 'Veteran' Yogyakarta",
+      cardDetailedText: `Managing events, study jams, conference, webinars, etc.`
+    },
+    {
+      title: "July 2022 - Present",
+      cardTitle: "Software Engineer - Backend Developer",
+      url: "https://www.linkedin.com/company/temandisabilitas/",
+      cardSubtitle: `TeDi (Teman Disabilitas) · Part-time`,
+      cardDetailedText: `We used MERN Stack (MySQL, ExpressJS, ReactJS, NodeJS) as a core development for building out our Web Application and API.`
+    },
+    {
+      title: "May 2021 - Present",
+      cardTitle: "Web Developer",
+      url: "papsprjct.com",
+      cardSubtitle: `papsprjct.com · Full-time`,
+      cardDetailedText: `Design the base ground of the static website. Its UI/UX, network, domain, and hosting on AWS (Using S3 bucket and Route 53), Supervise the development of web application, Manage multiple resources from multiple teams to coordinate according to the goals, and Increase product sales on Shopee with product showcasing and backlinks`
+    },
+    {
+      title: "April 2022 - July 2022",
+      cardTitle: "Cloud Engineer at Thisable Capstone Project Team",
+      url: "https://github.com/Thisable-Dev",
+      cardSubtitle: `Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka · Internship`,
+      cardDetailedText: `Thisable is the first all-in-one accessibility app in Indonesia for translating sign language with the help of BISINDO translator library, detecting objects, text, and currency. • Chosen as the Top 15 Best Product Capstone Team Finalist out of 437 Teams.
+        • Responsible for developing the application backend (NodeJS).
+        • Responsible for managing the google cloud service infrastructure.
+        • Responsible for deploying the API and server with App Engine and VM Instance.
+        • Collaborated with the android developer team for connecting the API.
+        • Volunteered in taking sign language, currency detection, and object detection datasets.`
+    },
+    {
+      title: "February 2022 - July 2022",
+      cardTitle: "Google Bangkit 2022 Participant - Cloud Computing Learning Path",
+      url: "https://www.linkedin.com/company/bangkit-academy/",
+      cardSubtitle: `Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka · Apprenticeship`,
+      cardDetailedText: `• Graduate with Distinction at Bangkit Academy 2022.
+      • Selected as one of the Cloud Computing Cohort from 3000 Bangkit Academy Cohorts out of 61.000 Applicants across Indonesia.
+      • Selected as one of the active team members of the top 15 Best Product Based Capstone Project teams in Bangkit Academy 2022.
+      • Top 1,000 performing students in English courses & tests
+      • 200 Most Active Students in the ILT session (Tech, Softskills, and English)
+      • Active Student during Weekly Consultation
+      
+      • Learn the fundamentals of the Cloud Computing learning path to deploy applications, monitor operations, and manage enterprise solutions with these specializations:
+        - Web (HTML5, JavaScript (ES6), Back-end Basic (ExpressJS and HapiJS), RESTful API, and Postman automation testing
+        - Google Cloud Computing Foundations
+        - Google Cloud Skills Boost (17 Badges | Badges certification on the Licenses & certifications section below)
+        - Architecting with Google Compute Engine
+        - Also on the GCSB (Google Cloud Skills Boost) Platform, I learned GCP (both Console UI and SDK), PaaS, IaaS, and SaaS (GCE, GKE, Cloud Function, Cloud Run, and App Engine), Basic Python Backend, Basic GO, Terraform, Kubernetes, Docker, CI/CD Framework: Jenkins, Helmet, and Spinnaker. AI Platform & Vertex AI, Dataflow, Dataproc, Dataprep, Google Cloud Storage, Cloud SQL, BigQuery, BigTable, Firestore, Firebase, VPC and the networking peripherals, Linux SSL Command• Graduate with Distinction at Bangkit Academy 2022. • Selected as one of the Cloud Computing Cohort from 3000 Bangkit Academy Cohorts out of 61.000 Applicants across Indonesia. • Selected as one of the active team members of the top 15 Best Product Based Capstone Project teams in Bangkit Academy 2022. • Top 1,000 performing students in English courses & tests • 200 Most Active Students in the ILT session (Tech, Softskills, and English) • Active Student during Weekly Consultation • Learn the fundamentals of the Cloud Computing learning path to deploy applications, monitor operations, and manage enterprise solutions with these specializations: - Web (HTML5, JavaScript (ES6), Back-end Basic (ExpressJS and HapiJS), RESTful API, and Postman automation testing - Google Cloud Computing Foundations - Google Cloud Skills Boost (17 Badges | Badges certification on the Licenses & certifications section below) - Architecting with Google Compute Engine - Also on the GCSB (Google Cloud Skills Boost) Platform, I learned GCP (both Console UI and SDK), PaaS, IaaS, and SaaS (GCE, GKE, Cloud Function, Cloud Run, and App Engine), Basic Python Backend, Basic GO, Terraform, Kubernetes, Docker, CI/CD Framework: Jenkins, Helmet, and Spinnaker. AI Platform & Vertex AI, Dataflow, Dataproc, Dataprep, Google Cloud Storage, Cloud SQL, BigQuery, BigTable, Firestore, Firebase, VPC and the networking peripherals, Linux SSL Command
+      Skills: Soft Skills · Cloud Computing · Google Cloud Platform (GCP) · Continuous Integration and Continuous Delivery (CI/CD) · Software Deployment · Teamwork · DevOps · English · Back-End Web Development`
+    },
+    {
+      title: "June 2021 - September 2021",
+      cardTitle: "Staff of Web Development",
+      url: "https://google.com",
+      cardSubtitle: `Information Technology Club UPN Veteran Yogyakarta · Apprenticeship`,
+      cardDetailedText: `Skills: React.js · Front-End Development`
+    },
+  ];
+  
 
   return (
     <div id="home">
       {/* section jumbotron */}
-      {/* <div id="jumbotron" className="bg-gradient-to-b from-blue1 to-blue2 relative min-h-[700px] h-screen flex items-center"> */}
       <div id="jumbotron" className="bg-space1 relative min-h-[700px] flex items-center pb-20 pt-10">
         <div className="absolute bottom-0 left-0 ">
           {/* <img src="./images/shape1.svg" alt="shape" className="w-screen shape" /> */}
@@ -18,7 +82,7 @@ function HomePage() {
           {/* <img src="./images/mobile-app.png" alt="mobile app" className="max-w-sm mt-20 z-10 hidden lg:inline absolute right-40"/> */}
           <img src="./images/Profile_remove_bg.png" alt="Profile" className="lg:absolute lg:right-60 lg:bottom-0 max-w-sm z-10 px-5 max-w-sm mt-20"/>
           <div className="text-white mx-5 pb-8 z-10 lg:order-first my-auto">
-            <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hi there <span className="text-white">👋</span>, It's me</h1>
+            <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6 mt-12">Hi there <span className="text-white">👋</span>, It's me</h1>
             <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">Hazlan Muhammad Qodri</h1>
             <h2 className="font-regular text-1xl mb-6">I'm <span className="font-regular text-transparent text-md bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-6">@hzlnqodrey</span><br/>Final Year CompSci Student at Universitas Pembangunan Nasional Veteran Yogyakarta<br/>Google Bangkit Academy 2022 Distinction Graduate<br/>Software Engineer - Backend and Cloud Infrastructure at TeDi (Teman Disabilitas)</h2>
             {/* <a className="bg-yellow1 hover:bg-yellow2 text-black font-bold px-5 py-2 rounded-md" href="#problem">Pelajari Selengkapnya</a> */}
@@ -39,14 +103,63 @@ function HomePage() {
         </div>
       </div>
 
+      {/* section experience */}
+      <div id="experience" className="bg-space1 relative min-h-[700px] flex items-center pb-20 pt-10">
+        <div className="absolute bottom-0 left-0 top-5">
+          <h1 className="font-extrabold text-center text-transparent text-2xl lg:text-4xl sm:text-4xl bg-clip-text bg-gradient-to-tr from-horizon-text1 to-horizon-text2 mb-10">Experience</h1>
+          <Chrono 
+              items={items}
+              mode="VERTICAL_ALTERNATING"
+              twoColums
+              scrollable={{ scrollbar: false }}
+              theme={{
+                primary: 'orange', // Short Description
+                secondary: 'orange', // Year Highlighter
+                cardBgColor: '#FFFFF0', // Card Background
+                cardForeColor: '#182747', // Title and long paragraphs
+                titleColor: 'white', // Year Title
+                titleColorActive: 'white', // Year Title Active
+              }}>
+                <div className="chrono-icons">
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+                  <img
+                    src="./images/clock-logo.svg"
+                    alt="clock"
+                  />
+              </div> 
+            </Chrono>
+        </div>
+      </div>
+
       {/* section problem */}
       <div id="problem" className="text-white bg-space1 py-20 flex flex-col min-h-[700px] lg:h-screen lg:items-center lg:justify-center relative">
-        
         <div className='hidden md:block'>
-          <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 -z-20' />
-          <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 -z-20' />
+          <img src='./images/shape-eclipse-blue.svg' alt='eclipse' className='absolute top-8 xl:top-28 left-20 z-20' />
+          <img src='./images/shape-eclipse-yellow.svg' alt='eclipse' className='absolute bottom-8 xl:bottom-28 right-20 z-20' />
         </div>
-        
         <h1 className="text-2xl lg:text-4xl text-center font-bold mb-20">Tedi hadir untuk menjawab<br/>permasalahan disabilitas di Indonesia</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center container mx-auto lg:px-10 xl:px-14 2xl:20">
           <div className="flex flex-col justify-center mb-10 md:mb-0">

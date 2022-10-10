@@ -31,16 +31,22 @@ function Navbar() {
       )}>
         <div className="flex flex-row justify-between px-10 lg:px-20 py-5">
           {/* logo */}
-          <img src="./images/logo-tedi-white.svg" alt="logo tedi" className={classNames(
-            scrollPosition < 100 && location.pathname === '/' ? '' : 'hidden'
-          )} />
-          <img src="./images/logo-tedi.svg" alt="logo tedi" className={classNames(
-            scrollPosition >= 100 && location.pathname === '/' ? '' : 'hidden'
-          )} />
-          <img src="./images/logo-tedi.svg" alt="logo tedi" className={classNames(
-             location.pathname !== '/' ? '' : 'hidden'
-          )} />
-
+          <a href='https://www.linkedin.com/in/hazlanmqodri/'>
+            <img src="./images/title-logo.svg" alt="logo profile" className={classNames(
+              scrollPosition < 100 && location.pathname === '/' ? '' : 'hidden'
+            )} />
+          </a>
+          <a href='https://www.linkedin.com/in/hazlanmqodri/'>
+            <img src="./images/title-logo.svg" alt="logo profile" className={classNames(
+              scrollPosition >= 100 && location.pathname === '/' ? '' : 'hidden'
+            )} />
+          </a>
+          <a href='https://www.linkedin.com/in/hazlanmqodri/'>
+            <img src="./images/logo-profile.svg" alt="logo profile" className={classNames(
+              location.pathname !== '/' ? '' : 'hidden'
+            )} />
+          </a>
+          
           {/* burger btn */}
           <div onClick={changeSidebar} className={classNames(
             scrollPosition < 100 && location.pathname === '/' ? '' : 'hidden',
@@ -72,7 +78,7 @@ function Navbar() {
           {/* sidebar mobile */}
           <ul className="sidebar lg:hidden bg-white text-black shadow fixed flex flex-col justify-start items top-0 bottom-0 -right-80 w-80 z-30 px-5 font-bold hover:text-blue" id="navUl">
             <li className="py-4 mt-20"><a href="#home" className="mr-5">Beranda</a></li>
-            <li className="py-4"><a href="#problem" className="mr-5">Tentang Kami</a></li>
+            <li className="py-4"><a href="#experience" className="mr-5">Experience</a></li>
             <li className="py-4"><a href="#feature" className="mr-5">Fitur</a></li>
             <li className="py-4"><a href="#projects" className="mr-5">Projects</a></li>
             <li className="py-4"><a href="https://linktr.ee/hzlnqodrey" className="bg-blue1 text-white rounded-full py-2 px-5">Look my other socials</a></li>
@@ -83,10 +89,10 @@ function Navbar() {
               scrollPosition >= 0 && scrollPosition < 700 ? 'font-bold' : 'font-normal',
               'mr-5'
             )}>Beranda</a></li>
-            <li><a href="#problem" className={classNames(
+            <li><a href="#experience" className={classNames(
               scrollPosition >= 700 && scrollPosition < 1400 ? 'font-bold' : 'font-normal',
               'mr-5'
-            )}>Tentang Kami</a></li>
+            )}>Experience</a></li>
             <li><a href="#feature" className={classNames(
               scrollPosition >= 1400 && scrollPosition < 3000 ? 'font-bold' : 'font-normal',
               'mr-5'
