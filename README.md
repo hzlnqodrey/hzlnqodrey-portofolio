@@ -1,3 +1,3 @@
 # Read This
 Hazlan Muhammad Qodri Site Portofolio
->> https://hzlnqodrey.herokuapp.com/
+> https://hzlnqodrey-portofolio.vercel.app/
