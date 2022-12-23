@@ -2,6 +2,7 @@
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/core';
 import { Chrono } from "react-chrono";
+import ProfileCV from '../assets/Hazlan_Qodrey_s_CV.pdf'
 
 function HomePage() {
   const items = [
@@ -97,7 +98,9 @@ function HomePage() {
                 </li>
               </ul>
             </div>
-            <button className="hover:bg-yellow2 bg-gradient-to-r from-horizon-text1 to-horizon-text2 font-bold px-5 py-2 rounded-md mt-8" href="mailto:hazlanqodri2020work@gmail.com">Kirim pesan ke saya!</button>
+            <a href={ProfileCV} download="Hazlan Muhammad Qodri CV">
+              <button className="hover:bg-yellow2 bg-gradient-to-r from-horizon-text1 to-horizon-text2 font-bold px-5 py-2 rounded-md mt-8" href="">Download my CV!</button>
+            </a>
           </div>
         </div>
       </div>
