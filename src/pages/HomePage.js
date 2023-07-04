@@ -7,6 +7,14 @@ import ProfileCV from '../assets/Hazlan_Qodrey_s_CV.pdf'
 function HomePage() {
   const items = [
     {
+      title: "February 2023 - June 2023",
+      cardTitle: "Software Quality Assurance",
+      url: "https://www.linkedin.com/company/pt--bank-cimb-niaga-tbk/",
+      cardSubtitle:
+        "CIMB Niaga · Internship",
+      cardDetailedText: `Carry out tests and perform appropriate analysis, including defect management also identifying system requirements from multiple System Design documentaries.`
+    },
+    {
       title: "October 2022 - May 2023",
       cardTitle: "Core Team Web and Cloud Curricula Division",
       url: "https://gdsc.community.dev/universitas-pembangunan-nasional-veteran-yogyakarta/",
@@ -18,15 +26,8 @@ function HomePage() {
       title: "July 2022 - January 2023",
       cardTitle: "Software Engineer - Backend Developer",
       url: "https://www.linkedin.com/company/temandisabilitas/",
-      cardSubtitle: `TeDi (Teman Disabilitas) · Part-time`,
+      cardSubtitle: `TeDi (Teman Disabilitas) · Internship`,
       cardDetailedText: `We used MERN Stack (MySQL, ExpressJS, ReactJS, NodeJS) as a core development for building out our Web Application and API.`
-    },
-    {
-      title: "May 2021 - May 2022",
-      cardTitle: "Web Developer",
-      url: "https://papsprjct.com",
-      cardSubtitle: `papsprjct.com · Full-time`,
-      cardDetailedText: `Design the base ground of the static website. Its UI/UX, network, domain, and hosting on AWS (Using S3 bucket and Route 53), Supervise the development of web application, Manage multiple resources from multiple teams to coordinate according to the goals, and Increase product sales on Shopee with product showcasing and backlinks`
     },
     {
       title: "April 2022 - July 2022",
@@ -59,6 +60,13 @@ function HomePage() {
         - Architecting with Google Compute Engine
         - Also on the GCSB (Google Cloud Skills Boost) Platform, I learned GCP (both Console UI and SDK), PaaS, IaaS, and SaaS (GCE, GKE, Cloud Function, Cloud Run, and App Engine), Basic Python Backend, Basic GO, Terraform, Kubernetes, Docker, CI/CD Framework: Jenkins, Helmet, and Spinnaker. AI Platform & Vertex AI, Dataflow, Dataproc, Dataprep, Google Cloud Storage, Cloud SQL, BigQuery, BigTable, Firestore, Firebase, VPC and the networking peripherals, Linux SSL Command• Graduate with Distinction at Bangkit Academy 2022. • Selected as one of the Cloud Computing Cohort from 3000 Bangkit Academy Cohorts out of 61.000 Applicants across Indonesia. • Selected as one of the active team members of the top 15 Best Product Based Capstone Project teams in Bangkit Academy 2022. • Top 1,000 performing students in English courses & tests • 200 Most Active Students in the ILT session (Tech, Softskills, and English) • Active Student during Weekly Consultation • Learn the fundamentals of the Cloud Computing learning path to deploy applications, monitor operations, and manage enterprise solutions with these specializations: - Web (HTML5, JavaScript (ES6), Back-end Basic (ExpressJS and HapiJS), RESTful API, and Postman automation testing - Google Cloud Computing Foundations - Google Cloud Skills Boost (17 Badges | Badges certification on the Licenses & certifications section below) - Architecting with Google Compute Engine - Also on the GCSB (Google Cloud Skills Boost) Platform, I learned GCP (both Console UI and SDK), PaaS, IaaS, and SaaS (GCE, GKE, Cloud Function, Cloud Run, and App Engine), Basic Python Backend, Basic GO, Terraform, Kubernetes, Docker, CI/CD Framework: Jenkins, Helmet, and Spinnaker. AI Platform & Vertex AI, Dataflow, Dataproc, Dataprep, Google Cloud Storage, Cloud SQL, BigQuery, BigTable, Firestore, Firebase, VPC and the networking peripherals, Linux SSL Command
       Skills: Soft Skills · Cloud Computing · Google Cloud Platform (GCP) · Continuous Integration and Continuous Delivery (CI/CD) · Software Deployment · Teamwork · DevOps · English · Back-End Web Development`
+    },
+    {
+      title: "May 2021 - May 2022",
+      cardTitle: "Web Developer",
+      url: "https://papsprjct.com",
+      cardSubtitle: `papsprjct.com · Full-time`,
+      cardDetailedText: `Design the base ground of the static website. Its UI/UX, network, domain, and hosting on AWS (Using S3 bucket and Route 53), Supervise the development of web application, Manage multiple resources from multiple teams to coordinate according to the goals, and Increase product sales on Shopee with product showcasing and backlinks`
     },
     {
       title: "June 2021 - September 2021",
