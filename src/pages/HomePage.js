@@ -7,7 +7,7 @@ import ProfileCV from '../assets/Hazlan_Qodrey_s_CV.pdf'
 function HomePage() {
   const items = [
     {
-      title: "October 2022 - Present",
+      title: "October 2022 - May 2023",
       cardTitle: "Core Team Web and Cloud Curricula Division",
       url: "https://gdsc.community.dev/universitas-pembangunan-nasional-veteran-yogyakarta/",
       cardSubtitle:
@@ -15,14 +15,14 @@ function HomePage() {
       cardDetailedText: `Managing events, study jams, conference, webinars, etc.`
     },
     {
-      title: "July 2022 - Present",
+      title: "July 2022 - January 2023",
       cardTitle: "Software Engineer - Backend Developer",
       url: "https://www.linkedin.com/company/temandisabilitas/",
       cardSubtitle: `TeDi (Teman Disabilitas) · Part-time`,
       cardDetailedText: `We used MERN Stack (MySQL, ExpressJS, ReactJS, NodeJS) as a core development for building out our Web Application and API.`
     },
     {
-      title: "May 2021 - Present",
+      title: "May 2021 - May 2022",
       cardTitle: "Web Developer",
       url: "https://papsprjct.com",
       cardSubtitle: `papsprjct.com · Full-time`,
