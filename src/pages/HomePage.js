@@ -369,13 +369,13 @@ function HomePage() {
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-center content-around">
                             <img src="./images/photos/acara1.JPG" alt="blog" className="object-cover md:w-4/12 md:h-1/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
-                            <img src="./images/photos/acara2.png" alt="blog" className="object-cover md:w-4/12 md:h-3/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/acara2-min.png" alt="blog" className="object-cover md:w-4/12 md:h-3/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
                         <div className="flex flex-col md:flex-row justify-center content-around">
                             <img src="./images/photos/final1.jpg" alt="blog" className="object-cover md:w-4/12 md:h-1/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
-                            <img src="./images/photos/final2.png" alt="blog" className="object-cover md:w-4/12 md:h-2/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/final2-min.png" alt="blog" className="object-cover md:w-4/12 md:h-2/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                     </SplideTrack>
