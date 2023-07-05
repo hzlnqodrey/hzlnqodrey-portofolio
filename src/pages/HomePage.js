@@ -350,23 +350,32 @@ function HomePage() {
                     </div>
                     <SplideTrack>
                       <SplideSlide>
-                        <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/photos/fgd-1.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/photos/fgd-2.png" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-30 rounded-lg px-20 md:px-0" />
+                        <div className="flex flex-col md:flex-row justify-center content-around">
+                            <img src="./images/photos/fgd-1.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />                            
                         </div>
                       </SplideSlide>
                       <SplideSlide>
-                        <div className="flex flex-col md:flex-row justify-start content-around">
-                          <img src="./images/photos/1.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                          <img src="./images/photos/2.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                          <img src="./images/photos/3.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        <div className="flex flex-col md:flex-row justify-center content-around">
+                          <img src="./images/photos/1.jpg" alt="blog" className="object-scale-down md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                          <img src="./images/photos/2.jpg" alt="blog" className="object-scale-down md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                       <SplideSlide>
-                        <div className="flex flex-col md:flex-row justify-start content-around">
-                            <img src="./images/photos/4.jpg" alt="blog" className="object-cover mb-5 rounded-lg px-20 md:px-0" />
-                            <img src="./images/photos/5.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
-                            <img src="./images/photos/6.jpg" alt="blog" className="object-cover mb-5 md:ml-10 lg:ml-40 rounded-lg px-20 md:px-0" />
+                        <div className="flex flex-col md:flex-row justify-center content-around">
+                            <img src="./images/photos/4.jpg" alt="blog" className="object-scale-down md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/5.jpg" alt="blog" className="object-scale-down md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-center content-around">
+                            <img src="./images/photos/acara1.JPG" alt="blog" className="object-cover md:w-4/12 md:h-1/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/acara2.png" alt="blog" className="object-cover md:w-4/12 md:h-3/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                        </div>
+                      </SplideSlide>
+                      <SplideSlide>
+                        <div className="flex flex-col md:flex-row justify-center content-around">
+                            <img src="./images/photos/final1.jpg" alt="blog" className="object-cover md:w-4/12 md:h-1/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
+                            <img src="./images/photos/final2.png" alt="blog" className="object-cover md:w-4/12 md:h-2/5 md:ml-10 lg:ml-20 rounded-lg px-20 md:px-0" />
                         </div>
                       </SplideSlide>
                     </SplideTrack>
