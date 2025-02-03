@@ -2,7 +2,7 @@
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/core';
 import { Chrono } from "react-chrono";
-import ProfileCV from '../assets/Hazlan Muhammad Qodri_CV.pdf'
+import ProfileCV from '../assets/Hazlan_Muhammad_Qodri_s_CV.pdf'
 
 function HomePage() {
   const items = [
